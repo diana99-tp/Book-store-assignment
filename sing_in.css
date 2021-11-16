@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: center;
+  right: 0;
+  margin: 30px;
+  max-width: 350px;
+  padding: 16px;
+  background-color: white;
+}
+.top {
+  overflow: hidden;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+
+.top a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.top a:hover {
+  background-color: grey;
+  color: black;
+}
+
+
+.top a.active {
+  background-color: gray;
+  color: black;
+}
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
